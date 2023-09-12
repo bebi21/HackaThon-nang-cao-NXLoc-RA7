@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 30px;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.listCard {
+  margin-top: 40px;
+}
+.listCard ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listCard ul li {
+  border-radius: 40px;
+  border: 1px solid rgba(0, 0, 255, 0.4);
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 40px;
+  margin: 0 20px;
+  overflow: hidden;
+}
+.listCard ul li a img {
+  width: 200px;
+  height: auto;
+}
+.informationCard {
+  position: relative;
+  margin-top: 40px;
+}
+.numberCvc {
+  position: absolute;
+  left: 250px;
+  top: 0;
+}
+.informationCardAll {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.cardName {
+  width: 479px;
+}
+
+input {
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 255, 0.4);
+}
+input:hover {
+  border: 1px solid rgba(0, 0, 255, 0.9);
+}
+.btn {
+  margin-top: 40px !important;
+}
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 20px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+.tableListCard {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+th,
+td {
+  border: 1px solid black;
+}
+.tableListCard tr td img {
+  width: 100px;
+  height: auto;
+}
+.center {
+  text-align: center;
+}

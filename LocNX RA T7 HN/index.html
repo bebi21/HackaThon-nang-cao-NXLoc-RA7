@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form>
+      <div>
+        <h1>Seclect Card</h1>
+      </div>
+      <div class="listCard">
+        <ul>
+          <li>
+            <a href="#" class="imgCard"
+              ><img src="./img/mastercard.jpg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="imgCard"
+              ><img src="./img/paypal.jpg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="imgCard"><img src="./img/visa.jpg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#" class="imgCard"
+              ><img src="./img/American.jpg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="imgCard"
+              ><img src="./img/discover.jpg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="informationCardAll">
+        <div>
+          <label for="cardName">Card Name</label><br />
+          <input
+            type="number"
+            name="cardName"
+            class="cardName"
+            id="cardNameJS"
+          />
+        </div>
+        <div class="informationCard">
+          <label for="expiryDate">Expiry Date</label><br />
+          <input type="number" id="expityDate" /><br />
+          <div class="numberCvc">
+            <label for="CVC/CVV">CVC/CVV</label><br />
+            <input type="number" id="cvc" />
+          </div>
+        </div>
+        <button class="btn button-9" role="button" onclick="saveOrView(event)">
+          Save
+        </button>
+      </div>
+    </form>
+    <div class="tableListCard">
+      <table>
+        <thead>
+          <tr>
+            <th>card Img</th>
+            <th>Card Number</th>
+            <th>ExpiryDate</th>
+            <th>CVV</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="showCard"></tbody>
+      </table>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
